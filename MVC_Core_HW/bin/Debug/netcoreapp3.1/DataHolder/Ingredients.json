@@ -1,0 +1,116 @@
+[
+  {
+    "Id": 1,
+    "Name": "Beef",
+    "ExpirationDate": "2020-03-31",
+    "Quantity": 12
+  },
+  {
+    "Id": 2,
+    "Name": "Chicken",
+    "ExpirationDate": "2020-05-21",
+    "Quantity": 35
+  },
+  {
+    "Id": 3,
+    "Name": "Salmon",
+    "ExpirationDate": "2020-04-26",
+    "Quantity": 4
+  },
+  {
+    "Id": 4,
+    "Name": "Trout",
+    "ExpirationDate": "2020-04-26",
+    "Quantity": 4
+  },
+  {
+    "Id": 5,
+    "Name": "Mushrooms",
+    "ExpirationDate": "2020-04-10",
+    "Quantity": 5
+  },
+  {
+    "Id": 6,
+    "Name": "Cabbage",
+    "ExpirationDate": "2020-04-10",
+    "Quantity": 50
+  },
+  {
+    "Id": 7,
+    "Name": "Iceberg",
+    "ExpirationDate": "2020-04-10",
+    "Quantity": 30
+  },
+  {
+    "Id": 8,
+    "Name": "Eggs",
+    "ExpirationDate": "2020-06-06",
+    "Quantity": 30
+  },
+  {
+    "Id": 10,
+    "Name": "Mayonaise",
+    "ExpirationDate": "2020-06-21",
+    "Quantity": 12
+  },
+  {
+    "Id": 11,
+    "Name": "Ketchup",
+    "ExpirationDate": "2020-10-10",
+    "Quantity": 10
+  },
+  {
+    "Id": 12,
+    "Name": "Basil",
+    "ExpirationDate": "2020-08-21",
+    "Quantity": 5
+  },
+  {
+    "Id": 14,
+    "Name": "Chili",
+    "ExpirationDate": "2020-04-10",
+    "Quantity": 5
+  },
+  {
+    "Id": 15,
+    "Name": "Cherry Tomato",
+    "ExpirationDate": "2020-04-10",
+    "Quantity": 5
+  },
+  {
+    "Id": 16,
+    "Name": "Spaghetti",
+    "ExpirationDate": "2021-06-21",
+    "Quantity": 24
+  },
+  {
+    "Id": 17,
+    "Name": "Cherry",
+    "ExpirationDate": "2020-04-30",
+    "Quantity": 36
+  },
+  {
+    "Id": 19,
+    "Name": "Milk",
+    "ExpirationDate": "2020-04-14",
+    "Quantity": 15
+  },
+  {
+    "Id": 20,
+    "Name": "Olive oil",
+    "ExpirationDate": "2020-04-30",
+    "Quantity": 131
+  },
+  {
+    "Id": 21,
+    "Name": "Mustard",
+    "ExpirationDate": "2020-03-22",
+    "Quantity": 15
+  },
+  {
+    "Id": 22,
+    "Name": "Carrots",
+    "ExpirationDate": "2020-04-14",
+    "Quantity": 0
+  }
+]

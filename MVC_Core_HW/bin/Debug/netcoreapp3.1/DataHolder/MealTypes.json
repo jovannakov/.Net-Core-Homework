@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Breakfast",
+    "IsActive": false
+  },
+  {
+    "Name": "Lunch",
+    "IsActive": true
+  },
+  {
+    "Name": "Pasta",
+    "IsActive": true
+  },
+  {
+    "Name": "Salad",
+    "IsActive": true
+  },
+  {
+    "Name": "Fish",
+    "IsActive": false
+  },
+  {
+    "Name": "Soup",
+    "IsActive": false
+  },
+  {
+    "Name": "Desert",
+    "IsActive": true
+  }
+]

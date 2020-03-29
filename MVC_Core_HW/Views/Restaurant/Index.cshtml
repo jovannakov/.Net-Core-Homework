@@ -1,0 +1,53 @@
+﻿@model IEnumerable<MVC_Core_HW.Models.ViewModels.ListMealsViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-controller="Restaurant" asp-action="CreateMeal">Create New</a>
+</p>
+<table id="ingredientsList" class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Type
+            </th>
+            <th>
+                Vegetarian
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @item.Name
+            <td>
+                @item.Price
+            </td>
+            <td>
+                @item.Type
+            </td>
+            <td>
+                @Html.DisplayFor(modelitem => item.IsVeggie)
+            </td>
+            <td>
+                <form asp-controller="Supplies" method="get">
+                    <button id="btnDelete" asp-action="Delete" asp-route-id="@item.Id">Delete</button>
+                </form>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

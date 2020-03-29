@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jnakov\\source\\myRepos\\MVC_Core_HW\\MVC_Core_HW\\MVC_Core_HW.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jnakov\\source\\myRepos\\MVC_Core_HW\\MVC_Core_HW\\MVC_Core_HW.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jnakov\\source\\myRepos\\MVC_Core_HW\\MVC_Core_HW\\MVC_Core_HW.csproj",
+        "projectName": "MVC_Core_HW",
+        "projectPath": "C:\\Users\\jnakov\\source\\myRepos\\MVC_Core_HW\\MVC_Core_HW\\MVC_Core_HW.csproj",
+        "packagesPath": "C:\\Users\\jnakov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jnakov\\source\\myRepos\\MVC_Core_HW\\MVC_Core_HW\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jnakov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "jquery.datatables": {
+              "target": "Package",
+              "version": "[1.10.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

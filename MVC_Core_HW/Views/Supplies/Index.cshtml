@@ -1,0 +1,80 @@
+﻿@model MVC_Core_HW.Models.ViewModels.SuppliesViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<nav class="navbar">
+    <ul class="nav">
+        <li class="nav-item mr-3">
+            @Html.ActionLink("Expired products", "ExpiredProducts", "Supplies")
+        </li>
+        <li class="nav-item">
+            @Html.ActionLink("Products we need", "NeededProducts", "Supplies")
+        </li>
+    </ul>
+</nav>
+
+<h1>Index</h1>
+
+
+<table id="ingredientsList" class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+               Name
+            </th>
+            <th>
+                Expiration date
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Ingredients)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExpirationDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    <form asp-controller="Supplies" method="get">
+                        <button id="btnEdit" asp-action="Edit" asp-route-id="@item.Id">Edit</button>
+                        <button id="btnDelete"asp-action="Delete" asp-route-id="@item.Id">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<h3>Add new Ingredient Form</h3>
+
+<form asp-controller="Supplies" asp-action="Create">
+    <label class="form-group">
+        <span>Name</span>
+        <input class="form-control"  type="text" name="Name" />
+    </label>
+    <br />
+    <label class="form-group">
+        <span>Expiration Date</span>
+        <input class="form-control"  type="date" name="ExpirationDate" />
+    </label>
+    <br />
+    <label class="form-group">
+        <span class="">Quantity</span>
+        <input class="form-control" type="number" value="0" name="Quantity" />
+    </label>
+    <br />
+    <button id="btnSubmit" type="submit">Create</button>
+</form>
+
+
